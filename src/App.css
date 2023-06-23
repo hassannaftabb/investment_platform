@@ -1,0 +1,167 @@
+body {
+  background-color: #f8f8f8;
+}
+
+.product .swiper-button-next {
+  color: #f8f8f8;
+}
+
+.product .swiper-button-prev {
+  color: #f8f8f8;
+}
+
+.productCardSwiper:hover .swiper-button-next {
+  display: flex;
+}
+.productCardSwiper:hover .swiper-button-prev {
+  display: flex;
+}
+
+.productCardSwiper .swiper-button-next,
+.productCardSwiper .swiper-button-prev {
+  color: #000;
+  width: 26px;
+  height: 26px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingCardSwiper .swiper-button-next {
+  color: #000;
+  width: 30px;
+  height: 30px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingCardSwiper .swiper-button-prev {
+  color: #000;
+  width: 30px;
+  height: 30px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.InfoCorouselSwiper .swiper-button-next,
+.InfoCorouselSwiper .swiper-button-prev {
+  color: #193991;
+  width: 44px;
+  height: 44px;
+  background-color: #f4f0f0;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Swiper .swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  width: 26px;
+  height: 26px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.InfoCorouselSwiper .swiper-button-next::after,
+.InfoCorouselSwiper .swiper-button-prev::after {
+  font-size: 14px;
+}
+.landingCardSwiper .swiper-button-next::after,
+.landingCardSwiper .swiper-button-prev::after {
+  font-size: 14px;
+}
+.Swiper .swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  width: 26px;
+  height: 26px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.productCardSwiper .swiper-button-next::after,
+.productCardSwiper .swiper-button-prev::after {
+  font-size: 11px;
+  font-weight: 800;
+}
+.Swiper .swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.myProjectEditProjectContainer::-webkit-scrollbar {
+  display: none;
+}
+
+div div .swiper-button-disabled {
+  display: none;
+}
+div .productCardSwiper:hover .swiper-button-disabled {
+  display: none;
+}
+
+div .swiper-pagination-bullet {
+  background-color: #f8f8f8;
+}
+@media screen and (width<600px) {
+  .MuiTabs-scroller {
+    overflow-x: scroll !important;
+  }
+  .MuiTabs-flexContainer {
+    width: max-content !important;
+  }
+}
+
+div .scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+div .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.dotted-line-why::after {
+  background: linear-gradient(
+    to right,
+    black 88%,
+    transparent 88%,
+    transparent 90%,
+    black 90%,
+    black 92%,
+    transparent 92%,
+    transparent 94%,
+    black 94%,
+    black 96%,
+    transparent 96%,
+    transparent 98%,
+    black 98%,
+    black 100%
+  );
+}
+
+.landingTableContainer table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.356);
+  border-collapse: collapse;
+}
+
+.desc_dip > ol,
+ul {
+  list-style: unset;
+}
