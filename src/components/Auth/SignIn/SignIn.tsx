@@ -115,11 +115,11 @@ const SignIn = ({ setIsLoading }: Props) => {
               </div>
             </div>
 
-            <div className="w-full text-center text-secondary-light text-sm flex space-x-2 items-center">
+            {/* <div className="w-full text-center text-secondary-light text-sm flex space-x-2 items-center">
               <span className="h-[1px] bg-[#DCDBDD] w-full"></span>{" "}
               <span>or</span>
               <span className="h-[1px] bg-[#DCDBDD] w-full"></span>
-            </div>
+            </div> */}
 
             {/* <Link
               to={"/login-with-phone"}
@@ -128,10 +128,10 @@ const SignIn = ({ setIsLoading }: Props) => {
               Login With Phone
             </Link> */}
 
-            <div className="flex justify-between items-center w-full gap-3 sm:flex-col">
+            {/* <div className="flex justify-between items-center w-full gap-3 sm:flex-col">
               <GoogleAuth />
               <FacebookLogin />
-            </div>
+            </div> */}
 
             <div className="grid grid-cols-2 w-full">
               <Link
